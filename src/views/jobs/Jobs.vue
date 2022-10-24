@@ -1,6 +1,7 @@
 <template>
   <h1>Jobs</h1>
   <div v-for="job in jobs" :key="job.id">
+    <a href="#">{{ job.title }}</a>
     <h2>{{ job.title }}</h2>
   </div>
 </template>
